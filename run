@@ -4,7 +4,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 #cd Python-2.7.10
 #./configure --prefix=/home/mfrancis/python
 #make install
-virtualenv plab --python=/home/mfrancis/python/bin/python
+virtualenv plab #--python=/home/mfrancis/python/bin/python
 source plab/bin/activate
 pip install readline
 pip install pandas
